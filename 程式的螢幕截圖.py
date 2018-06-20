@@ -74,7 +74,6 @@ def getWindow_Img(hwnd):
     return img
 
 hwnd = FindWindow_bySearch("小畫家")
-print( win32gui.GetParent(hwnd) )
 
 while True:
     sleep(0.03)
